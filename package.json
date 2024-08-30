@@ -2,11 +2,11 @@
   "name": "sistema-ventas-api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc -w",
     "dev": "nodemon build/index.js",
-    "start": "node src/index.js"
+    "start": "concurrently --kill-others \"npm run build\" \"npm run dev\""
   },
   "keywords": [],
   "author": "Angel Gerardo velazquez",
