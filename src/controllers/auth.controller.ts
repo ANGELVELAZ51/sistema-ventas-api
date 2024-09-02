@@ -15,7 +15,7 @@ class AuthController {
             // obtener los datos del body
             const {username, password} = req.body;
 
-            // Verificar si el usuario exciste
+            // Verificar si el usuario existe
             const usuario = await prisma.usuario.findFirst({
                 where: {
                     username: username
