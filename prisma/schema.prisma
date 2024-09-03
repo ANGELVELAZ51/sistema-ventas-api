@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = "mysql://admin:angelvelazquez@sistema-ventas-db.c964kqgo4szi.us-east-2.rds.amazonaws.com:3306/sistema-ventas-db"
+  url      = "mysql://admin:angelvelazquez@sistema-ventas-db.c964kqgo4szi.us-east-2.rds.amazonaws.com:3306/db_desarrollo_integral"
 }
 //comando
 //npx prisma generate
